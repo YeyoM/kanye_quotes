@@ -2,15 +2,55 @@
   text-align: center;
 }
 
+.Header-Container {
+  font-size: 1.3rem;
+  font-weight: 400;
+  letter-spacing: 1.5rem;
+}
+
+.Body-Container {
+  border-top: 3px solid black;
+  text-align: center;
+  display: flex;
+}
+
+.Quote-Container, .Next-Container {
+  flex: 50%
+}
+.Next-Container {
+  display: grid;
+  place-content: center;
+  height: 85vh;
+}
+
+.Quote-Container {
+  display: grid;
+  place-content: center;
+  height: 85vh;
+}
+.Quote {
+  margin: 0rem 2rem;
+  font-size: 3.5rem;
+}
+
+.button-next-quote {
+  font-family: 'Vast Shadow', cursive;
+  font-size: 1.2rem;
+  font-weight: 200;
+  padding: 1.2rem 3rem;
+  border: 2px solid black;
+  transition-duration: 0.2s;
+}
+
+.button-next-quote:hover {
+  cursor: url('../public/hand_isometric.svg'), auto;
+  color: white;
+  background-color: black;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -24,15 +64,61 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.copy-to-clip {
+  cursor: url('../public/hand_isometric.svg'), auto;
+  margin: 1rem 2rem;
+  font-family: 'Vast Shadow', cursive;
+  border: none;
+  text-decoration: underline;
+  color: rgba(0,254,1,1);
+  font-size: 1rem;
+  transition-duration: 0.3s;
+  background-color: rgba(255,255,255,0.0);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.copy-to-clip:hover {
+  color: rgb(0, 38, 254);
+}
+
+.Twitter-Link {
+  cursor: url('../public/hand_isometric.svg'), auto;
+  margin: 2rem;
+  color: rgba(0,254,1,1);
+  transition-duration: 0.3s;
+}
+
+.Twitter-Link:hover {
+  cursor: url('../public/hand_isometric.svg'), auto;
+  color: rgb(0, 38, 254);
+}
+.deprecated {
+  color:white
+}
+
+@media (max-width: 1000px) {
+  .Body-Container {
+    border-top: 3px solid black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+  .Quote {
+    margin: 3rem 0.5rem;
+  font-size: 2rem;
+
+  }
+  .Quote-text {
+    margin-bottom: 0
+  }
+  .Kanye {
+    margin: 0rem 0.5rem 3rem 0.5rem;
+  }
+  .Next-Container {
+    margin: 2rem 0.5rem 
+  }
+  .deprecated {
+    color: rgba(0,254,1,1);
+    font-weight: 200;
+    font-size: 0.5rem;
   }
 }
