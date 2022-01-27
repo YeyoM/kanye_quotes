@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.eccf8c54.css",
-    "main.js": "/static/js/main.64e66271.js",
-    "static/media/hand_isometric.svg": "/static/media/hand_isometric.919345a3541e3aa14b1e.svg",
-    "index.html": "/index.html",
-    "main.eccf8c54.css.map": "/static/css/main.eccf8c54.css.map",
-    "main.64e66271.js.map": "/static/js/main.64e66271.js.map"
+    "main.css": "/KanyeQuotes/static/css/main.c0f8e08e.css",
+    "main.js": "/KanyeQuotes/static/js/main.64e66271.js",
+    "static/media/hand_isometric.svg": "/KanyeQuotes/static/media/hand_isometric.919345a3541e3aa14b1e.svg",
+    "index.html": "/KanyeQuotes/index.html",
+    "main.c0f8e08e.css.map": "/KanyeQuotes/static/css/main.c0f8e08e.css.map",
+    "main.64e66271.js.map": "/KanyeQuotes/static/js/main.64e66271.js.map"
   },
   "entrypoints": [
-    "static/css/main.eccf8c54.css",
+    "static/css/main.c0f8e08e.css",
     "static/js/main.64e66271.js"
   ]
 }
