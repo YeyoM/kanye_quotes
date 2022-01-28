@@ -1,6 +1,6 @@
 {
-  "homepage":"https://yeyom.github.io/KanyeQuotes",
-  "name": "kanyequotes",
+  "homepage":"https://yeyom.github.io/kanye_quotes",
+  "name": "kanye_quotes",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
